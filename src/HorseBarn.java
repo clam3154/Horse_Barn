@@ -1,10 +1,11 @@
-public class HorseRunner
+public class HorseBarn
 {
+    private Horse[] spaces;
     public static void main(String[] args)
     {
         Horse horse1 = new Mustang("Secretaritat", 12000);
-        Horse horse1 = new Mustang("Dusty Trail", 22000);
-        Horse horse1 = new Mustang("Silver", 12000);
+        Horse horse2 = new Mustang("Dusty Trail", 22000);
+        Horse horse3 = new Mustang("Silver", 12000);
 
         Horse[] horses = new Horse[6];
 
